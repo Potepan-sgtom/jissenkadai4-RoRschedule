@@ -12,5 +12,6 @@ module PotepanRails
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.time_zone = 'Tokyo'#←追記(時間設定)
+    config.i18n.default_locale = :ja
   end
 end
